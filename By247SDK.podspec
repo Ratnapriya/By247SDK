@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.authors       =  {'Ratnapriya Saripalli' => 'ratnapriya.saripalli@247.ai'}
   
   s.ios.deployment_target = '9.0'
-  s.source_files        = 'include/**/*.h'
-  s.public_header_files = 'include/**/*.h'
+  s.source_files        = 'include/*.h'
+  #s.public_header_files = 'include/**/*.h'
   #s.header_dir          = 'By247SDK'
   #s.preserve_paths      = 'lib/libBy247SDK.a'
   #s.vendored_libraries  = 'lib/libBy247SDK.a'
