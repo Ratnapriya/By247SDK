@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = '1.7.0'
   s.summary      = "By247SDK for iOS"
   s.description  = "By247SDK is chat platform SDK"
-  s.homepage     = "https://github.com/Ratnapriya/By247SDK"
+  s.homepage     = "http://krzyzanowskim.github.io/OpenSSL/"
   s.license	     = 'Code is MIT, then custom font licenses.'
   s.source       = { :git => "https://github.com/Ratnapriya/By247SDK.git", :tag => s.version}
 
