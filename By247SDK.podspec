@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "By247SDK"
-  s.version      = '1.7.0'
+  s.version      = '0.1.0'
   s.summary      = "By247SDK for iOS"
   s.description  = "By247SDK is chat platform SDK"
   s.homepage     = "http://krzyzanowskim.github.io/OpenSSL/"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.authors       =  {'Ratnapriya Saripalli' => 'ratnapriya.saripalli@247.ai'}
   
   s.ios.deployment_target = '9.0'
-  s.source_files        = 'include/*'
+  s.source_files        = 'include/**/*'
   #s.public_header_files = 'include/**/*.h'
   #s.header_dir          = 'By247SDK'
   #s.preserve_paths      = 'lib/libBy247SDK.a'
