@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description  = "By247SDK"
   s.homepage     = "https://github.com/Ratnapriya/By247SDK"
   s.license	     = 'Code is MIT, then custom font licenses.'
-  s.source       = { :git => "https://github.com/Ratnapriya/By247SDK", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/Ratnapriya/By247SDK", :tag => s.version}
 
   s.authors       =  {'Ratnapriya Saripalli' => 'ratnapriya.saripalli@247.ai'}
   
