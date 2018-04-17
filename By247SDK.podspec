@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   #s.vendored_libraries  = 'lib/libBy247SDK.a'
 
   #s.libraries = 'By247SDK'
-  s.requires_arc = true
+  #s.requires_arc = true
 end
