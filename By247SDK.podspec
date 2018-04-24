@@ -30,17 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'include/**/*'
-  s.preserve_paths      = 'lib/libBy247SDK.a'
-  s.vendored_libraries  = 'lib/libBy247SDK.a'
-  #s.vendored_frameworks = 'framework/By247SDK.framework'
+#s.source_files = 'include/**/*'
+#s.preserve_paths      = 'lib/libBy247SDK.a'
+#  s.vendored_libraries  = 'lib/libBy247SDK.a'
+  s.vendored_frameworks = 'framework/By247SDK.framework'
   s.libraries = 'By247SDK'
 
   # s.resource_bundles = {
   #   'By247SDK' => ['By247SDK/Assets/*.png']
   # }
 
-  s.public_header_files = 'include/**/*.h'
+# s.public_header_files = 'include/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
