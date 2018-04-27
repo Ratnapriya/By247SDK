@@ -25,7 +25,8 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ratnapriya' => 'ratnapriya.saripalli@247-inc.com' }
-  s.source           = { :git => 'https://github.com/Ratnapriya/By247SDK.git', :tag => s.version.to_s }
+#s.source           = { :git => 'https://github.com/Ratnapriya/By247SDK.git', :tag => s.version.to_s }
+  s.source           = {  :http => 'https://github.home.247-inc.net/platform/ude-sdk-ios/releases/download/1.8.0-2/By247SDK-release.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -34,13 +35,18 @@ TODO: Add long description of the pod here.
 #s.preserve_paths      = 'lib/libBy247SDK.a'
 #  s.vendored_libraries  = 'lib/libBy247SDK.a'
   s.vendored_frameworks = 'framework/By247SDK.framework'
-  s.libraries = 'By247SDK'
+# s.libraries = 'By247SDK'
 
   # s.resource_bundles = {
   #   'By247SDK' => ['By247SDK/Assets/*.png']
   # }
 
 # s.public_header_files = 'include/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.frameworks = 'UIKit', 'AudioToolbox', 'Foundation', 'CoreFoundation', 'SystemConfiguration', 'CoreTelephony'
+s.dependency 'DoubleConversion'
+s.dependency 'Folly'
+#s.dependency 'GLog'
+#s.dependency 'yoga'
+s.dependency 'React'
+
 end
